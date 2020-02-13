@@ -1,0 +1,41 @@
+this is where to write notes to yourself.
+
+I am editing the notes file right now. the server is running now.....
+
+Patrick was here 16 Dec 11:38 am
+
+Patrick 1 January 2020
+
+https://github.com/geoss/censumander
+
+https://nbviewer.jupyter.org/github/geoss/ACS_Regionalization/blob/master/code/toy_example.ipynb
+
+
+Zac 01/01/2020
+steps:
+
+upload any relevant files here in the /thesis_code/ folder
+
+explore the aspatial data ------> tell us what data needs cleaning up and whats relevant and what needs formatting
+
+visualize/explore the spatial data -------> load any .shp or vector or raster data into a GIS, and explore what is there.
+
+clean the data ----------------------------> prep for joins
+
+join the data ------------------------------> create baseline dataset 
+
+clean the data ----------------------------------> control for areas with no house.
+
+    decision: control for census tracts with no housing
+    decision: control for census tracts with no estimates veterans in tract.
+    
+
+apply max-p to data ---------------------------> generate result dataset.
+
+ensure that regions from max-p are independent objects in the shapefile.
+
+apply floating cachement and network analysis to generated dataset.
+
+
+
+
