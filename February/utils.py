@@ -26,6 +26,8 @@ np_any = np.any
 np_int32 = np.int32
 np_isnan = np.isnan
 np_isinf = np.isinf
+np.seterr(divide='ignore', invalid='ignore')
+
 
 
 def list_copy(l):
@@ -131,8 +133,8 @@ def get_cv(est, sde, cv_exclude_type):
      1.0, which should fail most user's criteria
     '''
     cv = sde / est
-    cv[est < cv_exclude_type] = 0.0
-    cv[np_isnan(est)] = 0.0
+    cv[est < cv_exclude_type] = 1.0
+    cv[np_isnan(est)] = 1.0
     cv[np_isinf(cv)] = 1.0
     return cv.tolist()
 
