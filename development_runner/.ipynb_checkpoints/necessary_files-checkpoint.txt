@@ -1,0 +1,11 @@
+mamba.shp
+Exclude_Test.csv
+ACS_Full_Table_Copy1.csv
+Total_Population.csv
+prop_est_vet_perc.csv
+proportion1.csv
+std_err_prop.csv
+tract_ids.csv
+est_ratio5.csv
+std_err_prop.csv
+population_ratio.csv
